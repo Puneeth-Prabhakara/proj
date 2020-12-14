@@ -3,33 +3,41 @@
 <head>
 <meta charset="UTF-8">
 <title>DHARMA CONSTRUCTIONS</title>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
 <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
     
     <header>
-        <img src="img/Logo1.png" alt="DHARMA CONSTRUCTIONS" class="logo" width="170px" height="150px" >
-        <nav>
-            <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">CONTACT US</a></li>
-            </ul>
+        <div class="pos">
+            <img src="img/Logo1.png" alt="DHARMA CONSTRUCTIONS" class="logo" width="175px" height="150px" >
+            <nav>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                </ul>
 
-        </nav>
+            </nav>
+        </div>  
     </header>
 
-    <section class="home-hero" >
+    <section class="home-hero"> 
         <div class="container">
         <h1 class="title">
             Crafting your Curiosity!!
         </h1>
-        <a href="" class="button button-accent">SEE OUR WORK</a>
+        <a href="#portfolio1" class="button button-accent">SEE OUR WORK</a>
         </div>
     </section>
     
-    <div class="container">
+    <div class="container" >
         <section class="home-about">
             <div class="home-about-textbox">
                 <h1>
@@ -43,11 +51,46 @@
             </div>
         </section>
     </div>
-    <section class="portfolio">
+    <!--
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/image9.jpg" class="d-block w-100 " alt="..." width="100%" height="75%">
+          </div>
+          <div class="carousel-item">
+            <img src="img/image2.jpg" class="d-block  w-100 " alt="..." width="100%" height="75%">
+          </div>
+          <div class="carousel-item">
+            <img src="img/image3.jpg" class="d-block  w-100 " alt="..." width="100%" height="75%">
+          </div>
+          <div class="carousel-item">
+            <img src="img/image4.jpg" class="d-block  w-100 " alt="..." width="100%" height="75%">
+          </div>
+          <div class="carousel-item">
+            <img src="img/image5.jpg" class="d-block  w-100 " alt="..." width="100%" height="75%">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon icon-mod" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon icon-mod" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>-->
+
+
+
+
+
+ <!--=============================================================================================-->
+    <section class="portfolio" id="portfolio1">
         <h1>SOME OF OUR WORK</h1>
         <!--portfolio item1-->
         <figure class="port-item">
-            <img src="img/image1jpg.jpg" alt="portfolio item" width="100%" height="75%">
+            <img src="img/image9.jpg" alt="portfolio item" width="100%" height="75%">
 
             <figcaption class="port-desc">
                 <p>
@@ -117,6 +160,7 @@
 
             </figcaption>
         </figure>
+
 
     </section>
     <section class="cta">
